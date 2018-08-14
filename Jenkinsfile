@@ -15,7 +15,7 @@ pipeline {
 		}
 		stage ('Packaging Stage') {
 			steps {
-					sh 'mvn install'
+					sh 'mvn package'
 				}
 			}				
 
